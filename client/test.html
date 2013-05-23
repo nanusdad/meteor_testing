@@ -1,0 +1,31 @@
+<head>
+  <title>test</title>
+</head>
+
+<body>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <h1>Hello World!</h1>
+  {{#if test}}
+    {{#with test}}
+      ID: {{id}}  Name: {{name}}
+    {{/with}}
+  {{/if}}
+  <br />
+ <div class="container">
+  <div class="span8">
+  {{#if messages}}
+    {{#each messages}}
+      ID: {{text}}  
+     </div>
+     Channel: {{channel}}
+	<br />
+    {{/each}}
+  {{/if}}
+  </div>
+ </div>
+  <br />
+  <input type="button" value="Click" />
+</template>
