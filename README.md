@@ -1,4 +1,8 @@
 meteor_testing
 ==============
 
-Working publish / subscribe
+Working Meteor app utilizing 
+- client / server / lib directory structure
+- Collections
+- publish / subscribe
+
