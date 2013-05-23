@@ -6,3 +6,4 @@ Working Meteor app utilizing
 - Collections
 - publish / subscribe
 
+ajz
